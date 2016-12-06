@@ -67,5 +67,5 @@
     (char-upper-case? (char-upcase c)))
 
   (SRFI-23-error->R6RS "(library (srfi srfi-13 strings))"
-   (include/resolve ("srfi" "%3a13") "srfi-13.scm"))
+   (include/resolve ("srfi" "srfi-13") "srfi-13.scm"))
 )

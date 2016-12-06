@@ -33,5 +33,5 @@
     (srfi private include))
 
   (SRFI-23-error->R6RS "(library (srfi srfi-25 multi-dimensional-arrays arlib))"
-   (include/resolve ("srfi" "%3a25") "arlib.scm"))
+   (include/resolve ("srfi" "srfi-25") "arlib.scm"))
 )

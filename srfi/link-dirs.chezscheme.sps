@@ -30,7 +30,7 @@
 
 (define (should-link? file)
   (and (< 3 (string-length file))
-       (string=? "%3a" (substring file 0 3))))
+       (string=? "srfi-" (substring file 0 3))))
 
 (define (link-file file)
   (let ([clean (string-append ":" (substring file 3 (string-length file)))])

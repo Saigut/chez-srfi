@@ -23,7 +23,7 @@
               (and (file-regular? file)
                    (not (file-symbolic-link? file))
                    (< 3 str-length)
-                   (string=? (substring file 0 3) "%3a")
+                   (string=? (substring file 0 3) "srfi-")
                    (string=? (substring file (- str-length 4) str-length) ".sls"))))
           (directory-list root)))
 
