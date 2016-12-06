@@ -4,9 +4,9 @@
 
 (import
   (rnrs base) ; no R6RS records
-  (srfi :78 lightweight-testing)
-  (srfi :9 records)
-  #;(srfi :99 records))
+  (srfi srfi-78 lightweight-testing)
+  (srfi srfi-9 records)
+  #;(srfi srfi-99 records))
 
 (define unspec)
 

@@ -4,8 +4,8 @@
 
 (import
   (rnrs)
-  (srfi :25 multi-dimensional-arrays)
-  (srfi :78 lightweight-testing)
+  (srfi srfi-25 multi-dimensional-arrays)
+  (srfi srfi-78 lightweight-testing)
   (srfi private include))
 
 ;; These syntaxes cause the following error:

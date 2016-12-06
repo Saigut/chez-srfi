@@ -2,7 +2,7 @@
 ;; Copyright 2010 Derick Eddington.  My MIT-style license is in the file named
 ;; LICENSE from the original collection this file is distributed with.
 
-(library (srfi :42 eager-comprehensions)
+(library (srfi srfi-42 eager-comprehensions)
   (export
     do-ec list-ec append-ec string-ec string-append-ec vector-ec
     vector-of-length-ec sum-ec product-ec min-ec max-ec any?-ec
@@ -14,8 +14,8 @@
   (import
     (rnrs)
     (rnrs r5rs)
-    (srfi :39 parameters)
-    ;; (srfi :23 error tricks)
+    (srfi srfi-39 parameters)
+    ;; (srfi srfi-23 error tricks)
     (for (srfi private vanish) expand)
     (srfi private include))
 
@@ -30,7 +30,7 @@
   ;; pass all provided tests! (FBE)
 
   ;; (let-syntax ((define (vanish-define define (:-dispatch))))
-  ;;   (SRFI-23-error->R6RS "(library (srfi :42 eager-comprehensions))"
+  ;;   (SRFI-23-error->R6RS "(library (srfi srfi-42 eager-comprehensions))"
   ;;    (include/resolve ("srfi" "%3a42") "ec.scm")))
 
   (let-syntax ((define (vanish-define define (:-dispatch))))

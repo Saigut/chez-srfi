@@ -11,8 +11,8 @@
                 vector-for-each)
         (rnrs lists)
         (rnrs io simple)
-        (srfi :6 basic-string-ports)
-        (srfi :43 vectors))
+        (srfi srfi-6 basic-string-ports)
+        (srfi srfi-43 vectors))
 
 (define (writeln . xs)
   (for-each display xs)

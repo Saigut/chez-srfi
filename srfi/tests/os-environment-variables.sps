@@ -4,8 +4,8 @@
 
 (import
   (rename (rnrs) (for-all andmap))
-  (srfi :78 lightweight-testing)
-  (srfi :98 os-environment-variables))
+  (srfi srfi-78 lightweight-testing)
+  (srfi srfi-98 os-environment-variables))
 
 (check (list? (get-environment-variables))
        => #T)

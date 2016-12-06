@@ -14,7 +14,7 @@
 ;;; TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 ;;; PERFORMANCE OF THIS SOFTWARE.
 
-(library (srfi :19 time compat)
+(library (srfi srfi-19 time compat)
   (export time-resolution
           (rename (date-zone-offset timezone-offset))
           current-time

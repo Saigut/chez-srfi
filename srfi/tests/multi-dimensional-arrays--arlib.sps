@@ -4,9 +4,9 @@
 
 (import
   (rnrs)
-  (srfi :25 multi-dimensional-arrays)
-  (srfi :25 multi-dimensional-arrays arlib)
-  (srfi :78 lightweight-testing)
+  (srfi srfi-25 multi-dimensional-arrays)
+  (srfi srfi-25 multi-dimensional-arrays arlib)
+  (srfi srfi-78 lightweight-testing)
   (srfi private include))
 
 (define-syntax past (syntax-rules () ((_ . r) (begin))))

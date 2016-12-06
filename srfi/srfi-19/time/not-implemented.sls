@@ -2,7 +2,7 @@
 ;; Copyright 2010 Derick Eddington.  My MIT-style license is in the file named
 ;; LICENSE from the original collection this file is distributed with.
 
-(library (srfi :19 time not-implemented)
+(library (srfi srfi-19 time not-implemented)
   (export
     cumulative-thread-time
     cumulative-process-time

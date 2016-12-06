@@ -5,9 +5,9 @@
 (import
   (rnrs)
   (rnrs mutable-pairs)
-  (srfi :48 intermediate-format-strings)
+  (srfi srfi-48 intermediate-format-strings)
   (srfi private include)
-  (srfi :19 time))
+  (srfi srfi-19 time))
 
 (include/resolve ("srfi" "%3a19") "srfi-19-test-suite.scm")
 

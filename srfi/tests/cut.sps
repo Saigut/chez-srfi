@@ -4,9 +4,9 @@
 
 (import
   (except (rnrs) display newline)
-  (srfi :78 lightweight-testing)
+  (srfi srfi-78 lightweight-testing)
   (srfi private include)
-  (srfi :26 cut))
+  (srfi srfi-26 cut))
 
 (define (ignore . _) (values))
 (define display ignore)

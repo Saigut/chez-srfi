@@ -5,9 +5,9 @@
 (import
   (except (rnrs) error)
   (rnrs mutable-strings)
-  (srfi :23 error)
+  (srfi srfi-23 error)
   (srfi private include)
-  (srfi :42 eager-comprehensions))
+  (srfi srfi-42 eager-comprehensions))
 
 (define (my-open-output-file filename)
   (open-file-output-port filename

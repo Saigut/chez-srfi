@@ -12,7 +12,7 @@
 ;;;
 ;;; All other code was written by William D Clinger.
 
-(library (srfi :38 with-shared-structure)
+(library (srfi srfi-38 with-shared-structure)
 
   (export write-with-shared-structure write/ss
           read-with-shared-structure  read/ss)
@@ -27,8 +27,8 @@
           (rnrs hashtables)
           (rnrs mutable-strings)
           (rnrs mutable-pairs)
-          (srfi :99 records procedural)
-          (only (srfi :99 records inspection) record?))
+          (srfi srfi-99 records procedural)
+          (only (srfi srfi-99 records inspection) record?))
 
 ;;; Copyright (C) Ray Dillinger 2003. All Rights Reserved. 
 ;;;

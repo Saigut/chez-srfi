@@ -5,9 +5,9 @@
 (import
   (except (rnrs) error)
   (rnrs r5rs)
-  (srfi :23 error)
+  (srfi srfi-23 error)
   (srfi private include)
-  (srfi :27 random-bits))
+  (srfi srfi-27 random-bits))
 
 (define eval 'ignore)
 (define interaction-environment 'ignore)

@@ -4,7 +4,7 @@
 
 ;; Modified for Chez Scheme interactive environment by Federico Beffa
 
-(library (srfi :26 cut)
+(library (srfi srfi-26 cut)
   (export cut cute <> <...>)
   (import (rnrs) (srfi private include) (srfi private aux-keywords))
 
